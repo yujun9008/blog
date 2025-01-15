@@ -1,10 +1,10 @@
 const BLOG = {
-  title: '信鑫 Blog',
-  author: 'ycjcl868',
+  title: 'yujun Blog',
+  author: 'yujun9008',
   authorAvatar: '/avatar.jpeg',
-  email: 'chaolinjin@gmail.com',
-  defaultImageHost: 'images.rustc.cloud',
-  link: 'https://www.rustc.cloud',
+  email: 'yujun9008@gmail.com',
+  defaultImageHost: 'images.yujun.cloud',
+  link: 'https://www.yujun.cloud',
   description: '写写文章的地方',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   dateFormat: 'YYYY-MM-DD',
@@ -22,7 +22,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/ycjcl',
   seo: {
-    keywords: ['Blog', 'Website', '信鑫', 'ycjcl868', '博客'],
+    keywords: ['Blog', 'Website', 'yujun', 'yujun9008', '博客','于俊'],
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
   },
   isPreviewImageSupportEnabled: false,
@@ -36,33 +36,10 @@ const BLOG = {
       domainId: '', // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: 'G-QNHPPR60EZ', // e.g: G-XXXXXXXXXX
+      measurementId: '', // e.g: G-XXXXXXXXXX
     },
     cnzzConfig: {
       id: '1279745642',
-    },
-  },
-  comment: {
-    // support provider: gitalk, utterances, cusdis
-    provider: 'cusdis', // leave it empty if you don't need any comment plugin
-    gitalkConfig: {
-      repo: 'blog', // The repository of store comments
-      owner: 'ycjcl868',
-      admin: ['ycjcl868'],
-      clientID: '26baba385d964968e855',
-      clientSecret: '56f5bf32b9785258727c624d7fbd2984361315e3',
-      distractionFreeMode: false,
-      proxy:
-        'https://proxy.rustc.cloud/?https://github.com/login/oauth/access_token',
-    },
-    utterancesConfig: {
-      repo: '',
-    },
-    cusdisConfig: {
-      appId: 'f099af17-208a-4dce-805a-1afcab66c7b1', // data-app-id
-      host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
-      scriptSrc: 'https://cusdis.com/js/cusdis.umd.js', // change this if you're using self-hosted version
-      autoApproval: true, // auto approval comments
     },
   },
   isProd: process.env.NODE_ENV === 'production', // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
