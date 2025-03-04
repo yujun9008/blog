@@ -32,7 +32,7 @@ const Container: React.FC<any> = ({
         />
         <motion.main
           className={`m-auto flex-grow w-full transition-all ${
-            !fullWidth ? 'max-w-[52rem] px-4 md:px-0' : 'px-4 md:px-24'
+            !fullWidth ? 'max-w-[60rem] px-4 md:px-0' : 'px-4 md:px-24'
           }`}
         >
           {children}
