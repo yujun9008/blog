@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'Jun Blog',
   author: 'yujun',
-  authorAvatar: '/avatar.jpeg',
+  authorAvatar: '/favicon.png',
   email: 'yujun9008@gmail.com',
   defaultImageHost: 'images.yujun.cloud',
   link: 'https://www.yujun.cloud',
@@ -20,7 +20,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/ycjcl',
+  socialLink: 'https://twitter.com/yujun9008',
   seo: {
     keywords: ['Blog', 'Website', 'yujun', 'yujun9008', '博客', '于俊'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
