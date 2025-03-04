@@ -92,15 +92,13 @@ export const getPost = async ({
         {
           property: 'slug',
           rich_text: {
-            equals: slug,
+            contains: slug,
           },
         },
       ],
     },
   };
-
   const response = await notion.databases.query(dbQuery);
   const posts = response.results.map(handlePost);
-
   return posts;
 };
